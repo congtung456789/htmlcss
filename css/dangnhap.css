@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: black;
+    font-family: tahoma;
+    width: 100%;
+}
+
+.tren {
+    height: 160px;
+    border-bottom: 4px solid orange;
+    display: flex;
+    color: gray;
+    font-size: 15px;
+}
+
+.anh {
+    margin-left: 110px;
+}
+
+.thongtin form input {
+    width: 240px;
+    height: 37px;
+}
+
+.thongtin form button {
+    height: 41px;
+    width: 100px;
+    background-color: orange;
+    margin-left: -6px;
+}
+
+.thongtin {
+    width: 1038px;
+    position: relative;
+    color: gray;
+    padding-top: 20px;
+}
+
+.tinbe {
+    padding-top: 18px;
+    display: flex;
+    padding-left: 200px;
+}
+
+span {
+    padding-left: 30px;
+    transition: 0.5s;
+}
+
+span:hover {
+    color: orange;
+    transition: 0.3s;
+}
+
+.thongtin ul li {
+    position: relative;
+    width: 150px;
+    height: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tin1 {
+    padding-right: 30px;
+}
+
+ul ul a {
+    text-decoration: none;
+    color: gray;
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 134px;
+    height: 30px;
+}
+
+ul ul {
+    display: none;
+    width: 150px;
+    height: 150px;
+}
+
+.thongtin form {
+    padding-top: 30px;
+    padding-left: 500px;
+}
+
+.tren ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 19px;
+    left: 10px;
+    z-index: 1;
+    color: orange;
+    background-color: white;
+    box-shadow: 1px 1px 1px gray;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+li {
+    transition: 0.5s;
+}
+
+li a:hover {
+    color: orange;
+}
+
+li:hover {
+    color: orange;
+}
+
+.ngonngu ul ul {
+    display: none;
+    width: 150px;
+    height: 80px;
+}
+
+
+/* hết div trên */
+
+#menu {
+    margin: 20px 20%;
+    color: gray;
+    z-index: 2;
+    text-align: center;
+    background-color: #6b4d4d;
+}
+
+#menu ul li {
+    height: 28px;
+    padding: 4px 20px;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+#menu li a {
+    transition: 0.6s;
+}
+
+#menu ul li ul {
+    width: 155px;
+    height: 120px;
+    position: relative;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+
+#menu ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    z-index: 4;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#menu .gachchan {
+    border-bottom: 1px dashed black;
+}
+
+#menu ul li ul li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#menu ul li a:hover {
+    color: orange;
+}
+
+#menu ul ul li a {
+    text-decoration: none;
+    display: block;
+    width: 132px;
+    height: 25px;
+    padding-top: 6px;
+}
+
+#menu ul li ul li {
+    margin-left: -15px;
+    position: relative;
+    width: 132px;
+    height: 25px;
+}
+
+#menu ul li ul li:hover a {
+    color: white;
+    background-color: orange;
+    transition: 0.3s;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: gray;
+    display: block;
+    height: 38px;
+}
+
+#menu ul {
+    list-style: none;
+    text-align: center;
+    margin-left: 33px;
+}
+
+#menu .tintuc ul {
+    width: 155px;
+    height: 80px;
+    position: relative;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    background-color: white;
+}
+
+.form1 label {
+    width: 130px;
+    height: 0px;
+    display: block;
+}
+
+input.nhap1 {
+    margin-left: 120px;
+    width: 200px;
+    height: 26px;
+    border: white;
+}
+
+.form1 div {
+    margin-bottom: 27px;
+    border-bottom: 1px solid gray;
+}
+
+form.form1 {
+margin: 30px;
+}
+.than 
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+input,
+input:active,
+input:focus {
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+}
+
+.form1 button {
+    width: 90px;
+    height: 37px;
+    color: white;
+    background: black;
+    border: 0;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form1 button:hover {
+    background: orange;
+}
+.footer {
+    margin-top: 90px;
+    background-color: black;
+    height: 440px;
+    border-bottom: 3px solid gray;
+    display: flex;
+}
+
+.diachi {
+    color: white;
+    margin-left: 60px;
+    padding-top: 60px;
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.diachi h3 {
+    color: orange;
+    padding-bottom: 30px;
+}
+
+.diachi p {
+    padding: 10px 0;
+}
+
+.diachi span {
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+.diachi .footervang {
+    color: orange;
+}
+
+.diachi input {
+    height: 30px;
+}
+
+.ttt p {
+    transition: 0.5s;
+}
+
+.ttt p:hover {
+    color: orange;
+}
+
+.diachi button {
+    height: 34px;
+    width: 73px;
+    background-color: gray;
+    color: white;
+}
+
+.actives {
+    background: orange!important;
+}
+.banner .anh1 img
+{
+    width: 100%;
+}
+.than1 {
+    height: 36px;
+    margin-top: 10px;
+    background: honeydew;
+    padding-top: 13px;
+}
+.than1
+{
+    margin-bottom: 30px;
+}
+.thanlienhe {
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #d3d2d2;
+    box-shadow: 6px 3px 5px 3px grey;
+}
+
+a.matkhau {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: tahoma;
+    color: black;
+    margin-left: 30px;
+}
+a.matkhau:hover
+{
+    color: #f90;
+    transition: 0.4s;
+}

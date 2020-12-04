@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/SanPham.css">
+    <script src="Js/jquery-3.4.1.min.js"></script>
+    <script src="Js/slide.js"></script>
+
+    <title>Sản Phẩm</title>
+</head>
+
+<body>
+    <div class="body">
+    <header>
+        <div class="tren">
+            <div class="anh">
+                <img src="Images/logo.PNG" alt="">
+            </div>
+
+
+            <div class="thongtin">
+                <div class="tinbe">
+                    <div class="tin1">
+                        <span>Điện thoại: 19009477</span>
+                        <span>Gmail: admin@demo5091.web30s.com</span>
+                    </div>
+                    <div class="taikhoan">
+                        <ul>
+                            <li> Tài khoản của tôi
+                                <ul>
+                                    <li><a href="dangkythanhvien.html">Đăng kí</a></li>
+                                    <li><a href="dangnhap.html">Đăng nhập</a></li>
+                                    <li><a href="">Danh sách mua</a></li>
+                                    <li><a href="">Danh sách so sánh</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="ngonngu">
+                        <ul>
+                            <li> Ngôn ngữ
+                                <ul>
+                                    <li><a href="">English</a></li>
+                                    <li><a href="">Tiếng việt</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="facebook">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/">Facebook</a>   
+                            </li>
+                        </ul>                
+                    </div>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Từ khóa tìm kiềm ">
+                    <button>Search</button>
+                </form>
+            </div>
+        </div>
+        <!-- hết tin trên -->
+
+        <div id="menu">
+            <ul>
+                <li> <a href="trangchu.html">TRANG CHỦ</a></li>
+
+                <li> <a href="GioiThieu.html">GIỚI THIỆU</a></li>
+
+                <li>
+                    <a href="Sanpham.html" style="color: orange;">SẢN PHẨM</a>
+                    <ul>
+                        <li><a class="gachchan" href="">Hoa quả </a>
+                        </li>
+
+                        <li><a class="gachchan" href="">Nấm sạch</a></li>
+
+                        <li><a href="">Rau sạch</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="MoHinhXanh.html">MÔ HÌNH XANH</a></li>
+
+                <li class="tintuc"><a href="TinTuc.html">TIN TỨC</a>
+                    <ul>
+                        <li><a class="gachchan" href="">Chuyện nhà nông</a>
+                        </li>
+
+                        <li>
+                            <a href="">Tin nông nghiệp </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="LienHe.html">LIÊN HỆ </a></li>
+            </ul>
+        </div>
+        <!-- hết menu -->
+        <div class="banner">
+            <div class="anh1">
+                <a href=""><img src="Images/anh1.jpg" alt=""></a>
+                <div class="mau"></div>
+                <div class="ten">THỰC PHẨM AN TOÀN TỰ NHIÊN </div>
+            </div>
+            <!-- <div class="anh2">
+                <a href=""><img src="Images/anh2.jpg" alt=""></a>
+                <div class="mau"></div>
+                <div class="ten">BỮA ĂN AN TOÀN CHO MỌI GIA ĐÌNH</div>
+            </div>
+            <div class="anh3">
+                <a href=""><img src="Images/anh3.jpg" alt=""></a>
+                <div class="mau"></div>
+                <div class="ten">ĐA DẠNG TRONG TỪNG BỮA ĂN </div>
+            </div> -->
+        </div>
+        <!-- hết banner -->
+        
+    </header>
+    <div class="than">
+        <div class="than1">
+            <span>Trang chủ</span>
+            <i>/</i>
+            <span style=" color: orange;"> Sản Phẩm</span>
+        </div>
+        <!-- hết thân 1 -->
+        <div class="than2">
+            <div class="trai">
+                <div class="tieude">
+                    <p>SẢN PHẨM</p>
+                    <div class="cbLuachon">
+                        <div class="chonsp">
+                            <label for="">Chọn hiển thị </label>
+                            <select name="" id="">
+                            <option value="">Chọn hiển thị</option>
+                            <option value="">12</option>
+                            <option value="">34</option>
+                            <option value="">26</option>
+                            <option value="">48</option>
+                            <option value="">96</option>
+                        </select>
+                        </div>
+                        <div class="sapxep">
+                            <label for="">Chọn sắp xếp </label>
+                            <select name="" id="">
+                            <option value="">Chọn sắp xếp</option>
+                            <option value="">Sắp xếp theo tên (A-Z)</option>
+                            <option value="">Sắp xếp theo tên (Z-A)</option>
+                            <option value="">Sắp xếp theo giá từ nhỏ đến lớn</option>
+                            <option value="">Sắp xếp theo giá từ lớn đến nhỏ</option>
+                            <option value="">Sắp xếp thoe khuyến mãi</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="spmoi"> 
+                        <h3>sản phẩm mới </h3>
+                        <div class="sanphamtrai">
+                            <div class="sanpham">
+                                <a href="bosap.html"><img src="img/2_files/bosap.jpg" alt=""></a>
+                                <div class="layer">
+                                    <button class="btntren">Xem sản phẩm </button>
+                                    <button class="btnduoi">Yêu thích</button>
+                                </div>
+                                <div class="thongtinsp">
+                                    <p><b><a href="bosap.html">Bơ sáp</a></b></p>
+                                    <p class="mauchu">50.000 <sup class="mauchu">đ</sup></p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                            <div class="sanpham">
+                                <a href=""><img src="img/2_files/kiwi.jpg" alt=""></a>
+                                <div class="layer">
+                                    <button class="btntren">Xem sản phẩm </button>
+                                    <button class="btnduoi">Yêu thích</button>
+                                </div>
+                                <div class="thongtinsp">
+                                    <p><b><a href="kiwixanh.html">Kiwi xanh New Zealand</a></b></p>
+                                    <p class="mauchu">130.000 <sup class="mauchu">đ</sup></p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                            <div class="sanpham">
+                                <a href=""><img src="img/catim.jpg" alt=""></a>
+                                <div class="layer">
+                                    <button class="btntren">Xem sản phẩm </button>
+                                    <button class="btnduoi">Yêu thích</button>
+                                </div>
+                                <div class="thongtinsp">
+                                    <p><b><a href="catim.html">Cà tím</a></b></p>
+                                    <p class="mauchu">31.000 <sup class="mauchu">đ</sup></p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <h3>sản phẩm cũ </h3>
+                    <div class="sanphamtrai">
+                        <div class="sanpham">
+                            <a href="bosap.html"><img src="img/2_files/bosap.jpg" alt=""></a>
+                            <div class="layer">
+                                <button class="btntren">Xem sản phẩm </button>
+                                <button class="btnduoi">Yêu thích</button>
+                            </div>
+                            <div class="thongtinsp">
+                                <p><b><a href="bosap.html">Bơ sáp</a></b></p>
+                                <p class="mauchu">50.000 <sup class="mauchu">đ</sup></p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="sanpham">
+                            <a href=""><img src="img/2_files/kiwi.jpg" alt=""></a>
+                            <div class="layer">
+                                <button class="btntren">Xem sản phẩm </button>
+                                <button class="btnduoi">Yêu thích</button>
+                            </div>
+                            <div class="thongtinsp">
+                                <p><b><a href="kiwixanh.html">Kiwi xanh New Zealand</a></b></p>
+                                <p class="mauchu">130.000 <sup class="mauchu">đ</sup></p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="sanpham">
+                            <a href=""><img src="img/catim.jpg" alt=""></a>
+                            <div class="layer">
+                                <button class="btntren">Xem sản phẩm </button>
+                                <button class="btnduoi">Yêu thích</button>
+                            </div>
+                            <div class="thongtinsp">
+                                <p><b><a href="catim.html">Cà tím</a></b></p>
+                                <p class="mauchu">31.000 <sup class="mauchu">đ</sup></p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sanphamtrai">
+                        <div class="sanpham">
+                            <a href=""><img src="img/1_files/bido.jpg" alt=""></a>
+                            <div class="layer">
+                                <button class="btntren">Xem sản phẩm </button>
+                                <button class="btnduoi">Yêu thích</button>
+                            </div>
+                            <div class="thongtinsp">
+                                <p><b>Bí đỏ</b></p>
+                                <p class="mauchu">23.000 <sup class="mauchu">đ</sup></p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="sanpham">
+                            <a href=""><img src="img/1_files/dau-tay-say.jpg" alt=""></a>
+                            <div class="layer">
+                                <button class="btntren">Xem sản phẩm </button>
+                                <button class="btnduoi">Yêu thích</button>
+                            </div>
+                            <div class="thongtinsp">
+                                <p><b>Dâu tây</b></p>
+                                <p class="mauchu">232.000 <sup class="mauchu">đ</sup></p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="sanpham">
+                            <a href=""><img src="img/1_files/dualeo.jpg" alt=""></a>
+                            <div class="layer">
+                                <button class="btntren">Xem sản phẩm </button>
+                                <button class="btnduoi">Yêu thích</button>
+                            </div>
+                            <div class="thongtinsp">
+                                <p><b>Dưa leo</b></p>
+                                <p class="mauchu">20.000 <sup class="mauchu">đ</sup></p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sanphamtrai">
+                        <div class="sanpham">
+                            <a href=""><img src="img/1_files/kimcham.jpg" alt=""></a>
+                            <div class="layer">
+                                <button class="btntren">Xem sản phẩm </button>
+                                <button class="btnduoi">Yêu thích</button>
+                            </div>
+                            <div class="thongtinsp">
+                                <p><b>Nấm kim châm</b></p>
+                                <p class="mauchu">22.000 <sup class="mauchu">đ</sup></p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="sanpham">
+                            <a href=""><img src="img/1_files/cherry-my.jpg" alt=""></a>
+                            <div class="layer">
+                                <button class="btntren">Xem sản phẩm </button>
+                                <button class="btnduoi">Yêu thích</button>
+                            </div>
+                            <div class="thongtinsp">
+                                <p><b>Cherry mỹ</b></p>
+                                <p class="mauchu">276.000 <sup class="mauchu">đ</sup></p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="sanpham">
+                            <a href=""><img src="img/1_files/bongcai.jpg" alt=""></a>
+                            <div class="layer">
+                                <button class="btntren">Xem sản phẩm </button>
+                                <button class="btnduoi">Yêu thích</button>
+                            </div>
+                            <div class="thongtinsp">
+                                <p><b>Bông cải xanh</b></p>
+                                <p class="mauchu">23.000 <sup class="mauchu">đ</sup></p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- hết div sản phẩm -->
+                    <div class="divtrang">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <<</a>
+                            </li>
+                            <li>
+                                <a href=""></a>
+                                <</li>
+                                    <li class="active"> <a href="">1</a></li>
+                                    <li> <a href="">2</a></li>
+                                    <li> <a href="">></a></li>
+                                    <li> <a href="">>></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- hết div trái -->
+            <div class="phai">
+                <div class="tieude">
+                    <p>DANH MỤC SẢN PHẨM</p>
+                </div>
+                <div class="danhmuc">
+                    <ul>
+                        <li><a href="">Hoa quả</a></li>
+                        <li><a href="">Nấm sạch</a></li>
+                        <li><a href="">Rau sạch</a></li>
+                    </ul>
+                </div>
+
+                <!-- hết div danh mục -->
+
+
+                <div class="tieude">
+                    <p>SẢN PHẨM BÁN CHẠY</p>
+                </div>
+                <div class="sanpham">
+                    <a href=""><img src="Images/anh5.jpg" alt=""></a>
+                    <div class="layer">
+                        <button class="btntren">Xem sản phẩm </button>
+                        <button class="btnduoi">Yêu thích</button>
+                    </div>
+                    <div class="thongtinsp">
+                        <p><b>Bơ sáp</b></p>
+                        <p class="mauchu">50000 <sup class="mauchu">đ</sup></p>
+                        <button>Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+                <div class="sanpham">
+                    <a href=""><img src="Images/anh6.jpg" alt=""></a>
+                    <div class="layer">
+                        <button class="btntren">Xem sản phẩm </button>
+                        <button class="btnduoi">Yêu thích</button>
+                    </div>
+                    <div class="thongtinsp">
+                        <p><b>Nấm sò tươi</b></p>
+                        <p class="mauchu">Liên hệ</p>
+                        <button>Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+                <div class="sanpham">
+                    <a href=""><img src="Images/anh7.jpg" alt=""></a>
+                    <div class="layer">
+                        <button class="btntren">Xem sản phẩm </button>
+                        <button class="btnduoi">Yêu thích</button>
+                    </div>
+                    <div class="thongtinsp">
+                        <p><b>Bông atiso</b></p>
+                        <p class="mauchu">140000 <sup class="mauchu">đ</sup></p>
+                        <button>Thêm vào giỏ hàng</button>
+                    </div>
+                </div>
+
+                <!-- hết div danh mục bán chạy -->
+
+                <div class="tieude">
+                    <p>TIN TỨC HOT </p>
+                </div>
+                <div class="tin">
+                    <div class="trai">
+                        <a href=""><img src="Images/anh8.jpg" alt=""></a>
+                    </div>
+                    <div class="tin1">
+                        <a href="">Tỏi-thảo dược tuyệt vời nhất hành tinh</a>
+                    </div>
+                </div>
+                <div class="tin">
+                    <div class="trai">
+                        <a href=""><img src="Images/anh9.jpg" alt=""></a>
+                    </div>
+                    <div class="tin1">
+                        <a href="">mẹo rửa rau tươi lâu</a>
+                    </div>
+                </div>
+                <div class="tin">
+                    <div class="trai">
+                        <a href=""><img src="Images/anh10.jpg" alt=""></a>
+                    </div>
+                    <div class="tin1">
+                        <a href="">10 năm miệt mài xây dựng NTM: Lâm Đồng ngày càn...</a>
+                    </div>
+                </div>
+                <!-- hết tin hot -->
+
+                <div class="tieude">
+                    <p>TAGS </p>
+                </div>
+                <div class="tin2">
+                    <button>Thế giới rau</button>
+                    <button>Rau sạch</button>
+                    <button>Rau tươi</button>
+                    <button>Thịt gia cầm</button>
+                    <button>Nông sản </button>
+                    <button>Thịt sạch</button>
+                </div>
+            </div>
+            <!-- hết div phải -->
+        </div>
+        <!-- hết phần thân 2 -->
+    </div>
+    <!-- hết thân  -->
+    <div class="footer">
+        <div class="diachi">
+            <h3>THẾ GIỚI RAU SẠCH</h3>
+            <p>Hãy lên hệ với chúng tôi để nhận được những tư vấn </p>
+            <span>Địa chỉ:</span><span class="footervang">196 Nguyễn Đình Chiểu,Phường 6, Quận 3,TP Hồ Chí Minh,Việt Nam</span><br>
+            <p>Điện thoại: <span class="footervang"> 028 62563737</span></p>
+            <p>Email:web@pavietnam.vn</p>
+        </div>
+        <div class="diachi ttt">
+            <h3>THÔNG TIN THÊM</h3>
+            <p>Tuyển dụng </p>
+            <p>Liên hệ </p>
+            <p>Mô hình xanh</p>
+            <p>Kiến thức nông nghiệp </p>
+        </div>
+        <div class="diachi">
+            <h3>FANPAGE</h3>
+            <p><img src="Images/fanpage.PNG" alt=""></p>
+        </div>
+        <div class="diachi">
+            <h3>ĐĂNG KÝ NHẬN TIN</h3>
+            <p>Đăng ký email để nhận thông tin khuyến mãi từ chúng tôi ! </p>
+            <p><input type="text" placeholder="Nhập email"> <button>Đăng ký</button>
+            
+            </p>
+            <p>Điện thoại: <span>028 62563737</span></p>
+        </div>
+    
+
+</div>
+</div>
+<div id="BackToTop">
+    <div>
+        <</div>
+    </div>
+</body>
+
+</html>
